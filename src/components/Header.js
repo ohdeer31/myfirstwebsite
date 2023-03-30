@@ -28,7 +28,7 @@ export default function Header() {
     
     return (
         <div>
-          <nav class="navbar bg-dark">
+          <nav className="navbar bg-dark">
             <Navigation
               currentPage={currentPage}
               handlePageChange={handlePageChange}
